@@ -1,0 +1,22 @@
+//Passing function as parameter
+
+function func1(x)
+{
+    alert(x)   
+}
+function func2(func)
+{
+    func("helloworld")
+}
+func2(func1)
+
+
+//Returning arguments first character
+
+function first(firstname,lastname)
+ {
+     console.log("'"+firstname.charAt(0)+lastname.charAt(0)+"'");
+ }
+ first("Roger","Waters");
+
+
